@@ -1,5 +1,5 @@
 {
-  "name": "openpayu/openpayu",
+  "name": "mariusdrg/openpayu-laravel",
   "type": "library",
   "license": "LGPL-3.0",
   "description": "OpenPayU PHP Library",
