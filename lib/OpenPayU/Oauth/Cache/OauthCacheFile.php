@@ -15,7 +15,7 @@ class OauthCacheFile implements OauthCacheInterface
     public function __construct($directory = null)
     {
         if ($directory === null) {
-            $directory = dirname(__FILE__).'/../../../Cache';
+            $directory = storage_path('framework/cache/openpayu');
         }
 
         if (!is_dir($directory) || !is_writable($directory)) {
